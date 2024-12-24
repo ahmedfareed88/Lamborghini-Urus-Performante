@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        .video-container {
+            flex: 1;
+        }
+        .details-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+        }
+        .car-name {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #ff4500;
+        }
+        .details {
+            list-style-type: none;
+            padding: 0;
+        }
+        .details li {
+            margin: 10px 0;
+            font-size: 1.5rem;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <video autoplay loop controls width="50%">
+                <source src="WhatsApp Video 2024-11-27 at 15.35.10_8bb1d31c.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="details-container">
+            <div class="car-name">Lamborghini Urus Performante</div>
+            <ul class="details">
+                <li>Horsepower: 666 hp at 6,000 RPM.</li>
+                <li>Torque: 850 Nm at 2,300-4,500 RPM.</li>
+                <li>Transmission: 8-speed automatic (all-wheel drive).
+                </li>
+                <li>0-100 km/h (0-62 mph): 3.3 seconds.
+
+
+
+
+
+                </li>
+            </ul>
+           
+        </div>
+    </div>
+</body>
+</html>
